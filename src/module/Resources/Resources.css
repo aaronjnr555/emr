@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+}
+.button-tag{
+    width: Hug (237px)px;
+    height: Hug (36px)px;
+    gap: 10px;
+    opacity: 0px;
+}
+.button-with-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: var(--Primary-color, #175CD3);
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 77%;
+    margin-top: 1%;
+    font-style: Text sm/Semibold;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.button-with-icon .icon{
+    margin-right: 5px;
+}
+.header .bell{
+    width: 30px;
+    height: 28px;
+    margin: -7px 3px;
+    border: 1.5px solid var(--Content-icon-color, #5C5C5C);
+    border: none;
+    color: #5C5C5C;
+}
+.resource-body{
+    margin: 5% 3.5%
+}
+.resources{
+    width: Fill (1,160px)px;
+    height: Hug (1,033px)px;
+    padding: 0px 32px 0px 32px;
+    gap: 10px;
+    opacity: 0px;
+    margin-top: 15px;
+}
+.resource-tag{
+    width: Fixed (745px)px;
+    height: Fill (56px)px;
+    gap: 4px;
+    opacity: 0px;
+}
+.resource-tag h1{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: var(--Text, #000000);
+}
+.resource-tag p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--Text-2, #878583);
+}
+.links{
+    margin: 5% 0px;
+    width: Hug (230px)px;
+    height: Hug (40px)px;
+    gap: 4px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+}
+.links button{
+    color: #ffff;
+    border-radius: 5px;
+    background: var(--Tertiary, #D2E3FF);
+}
+.btn1{
+    width: Hug (60px)px;
+    height: Hug (36px)px;
+    padding: 6px 12px 6px 12px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+}
+.btn2{
+    width: Hug (102px)px;
+    height: Hug (36px)px;
+    padding: 6px 12px 6px 12px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+}
+.links .dash{
+    width: Hug (60px)px;
+    height: Hug (40px)px;
+    padding: 8px 12px 8px 24px;
+    gap: 8px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+}
+.schedule{
+    width: Fill (1,048px)px;
+    height: Hug (820px)px;
+    gap: 24px;
+    opacity: 0px;
+    margin: 5% 0px;
+}
+.schedule-tag h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--Label-text, #262626);
+}
+.website-tag{
+    width: Fill (1,048px)px;
+    height: Hug (76px)px;
+    padding: 26px 24px 26px 24px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    color: var(--Text, #000000);
+}
+.schedule-pdf{
+    cursor: pointer;
+    width: Fill (1,048px)px;
+    height: Hug (66px)px;
+    padding: 13px 17px 13px 17px;
+    gap: 10px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    justify-items: center;
+}
+.medical-div{
+    width: Fill (1,048px)px;
+    height: Hug (188px)px;
+    gap: 16px;
+    opacity: 0px;
+    margin: 5% 0px;
+}
+.medical-div h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--Label-text, #262626);
+}
+.medical-div-pdf{
+    cursor: pointer;
+    width: Fill (1,048px)px;
+    height: Hug (66px)px;
+    padding: 13px 17px 13px 17px;
+    gap: 10px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    justify-items: center;
+}
+.understanding-pdf{
+    cursor: pointer;
+    width: Fill (1,048px)px;
+    height: Hug (66px)px;
+    padding: 13px 17px 13px 17px;
+    gap: 10px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    justify-items: center;
+}
+.schedule-tag{
+    width: Fill (1,048px)px;
+    height: Hug (116px)px;
+    gap: 16px;
+    opacity: 0px;
+    margin: 5% 0px;
+}
+.schedule-tag h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--Text, #000000);
+
+}
+.schedule-tag a{
+    width: Fill (1,048px)px;
+    height: Hug (76px)px;
+    padding: 26px 24px 26px 24px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    color: var(--Text, #000000);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: Fill (1,160px)px;
+    height: Fixed (64px)px;
+    padding: 12px 24px 16px 24px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.footer button {
+    width: Hug (87px)px;
+    height: Hug (36px)px;
+    padding: 8px 14px 8px 14px;
+    gap: 8px;
+    background: var(--White, #FFFFFF);
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid var(--Neutral-light, #AFAEAD)
+}
+.btn{
+    /* margin-left: 5%; */
+    /* margin: 0px 3%; */
+    /* padding: 0px 5%; */
+    display: flex;
+    border: 5px solid green;
+}
